@@ -1,0 +1,97 @@
+body{
+    background: url(assets/img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    width: 380px;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px;
+}
+
+
+.form-tittle {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.input-box  {
+    width: 100%;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+    border-color: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding-right: 50px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20px;
+    top: 50%;
+    color: #fff;
+}
+
+.remember-forgotten{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.remember-forgotten a,.register a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.remember-forgotten a:hover,.register a:hover{
+    text-decoration: underline; 
+}
+.login-btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.login-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.register {
+    margin-top: 24px;
+    color:#fff;
+    font-size: 14px;
+}
